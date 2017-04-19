@@ -1,3 +1,12 @@
+# JamesPhillipsUK.github.io
+## About
+This is the code for my GitHub Pages Site.  What are you doing bothering to look at all this boring code?  All of the fun stuff's at [JamesPhillipsUK.github.io](https://JamesPhillipsUK.github.io "James Phillips on GitHub")!
+
+## Design
+[JamesPhillipsUK.github.io](https://JamesPhillipsUK.github.io "James Phillips on GitHub") is built using [SimpLay](https://github.com/JamesPhillipsUK/SimpLay "SimpLay on GitHub").
+
+---
+
 # SimpLay
 SimpLay is a simple, modifiable web design template
 
