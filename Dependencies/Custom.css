@@ -1,3 +1,5 @@
-#PageContent{max-width:62rem;} /* decrease content width maximum limit */
+#PageContent{max-width:56rem;} /* decrease content width maximum limit */
 p,ul,li,a,strong,em,span{font-size:0.95rem;} /* Increase font size */
 a img{border:0;} /* To stop those disgusting IE borders */
+#CodeTable{width:80%;max-width:45rem;display:block;margin:0 auto 5rem auto;background-color:#444444;}
+#CodeTable th,#CodeTable tr{font-family:'Lato',sans-serif;background-color:#FFFFFF;margin:0.06rem 0.06rem 0.06rem 0.06rem}
