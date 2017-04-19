@@ -1,25 +1,42 @@
 <!DOCTYPE html>
-<html lang="en-GB">
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Enable IE/Edge Standards mode -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!-- Enable utf8 reading -->
-	<meta charset="UTF-8" />
-	<meta name="MobileOptimized" content="400">
-	<meta name="HandheldFriendly" content="True">
-	<meta name="keywords" content="James Phillips,jamesphillipsuk,James,Phillips,Vlog,YouTube,Blog,Videos,Programming,Software,Hardware,Electronics">
-	<meta name="description" content="James Phillips | Software Engineer / Web Developer">
-	
-	<title>James Phillips | Home</title>
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<script>
-	window.location.href = "http://jamesphillipsuk.com";
-	</script>
+<html>
+<head>  <!-- This file just shows off the template's abilities, you can alter it as want. -->
+	<title>MainPage</title> <!-- Add your site title here -->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="./Dependencies/MainMin.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="./Dependencies/MainMin.js"></script>
 </head>
 <body>
-	<h1>Redirecting...</h1>
-	<p>You should be instantly redirected, if not...  <a href="http://jamesphillipsuk.com/">Click here</a>.</p>
+	<nav id="MainNav">
+		<header id="MainNavHeader">
+			<h1>SimpLay - Simple Layout</h1> <!-- Add your page header here -->
+		</header>
+		<span id="MenuButton" class="icon-menu2"></span>
+	</nav>
+	<div id="DroppedDown">
+		<ul>
+			<li><a href="./BellsAndWhistles.html">All The Bells and Whistles</a></li>
+			<li><a href="./Page.html">Example Page</a></li> <!-- Add your own links here -->
+		</ul>
+	</div>
+	<div id="PageContent">
+		<article> <!-- An article contains information in a text format -->
+			<heading>
+				<h1>SimpLay - Simple Layout</h1> <!-- Add your article title here -->
+			</heading>
+			<h2>Website Design Template</h2> <!-- Give it a subheading too if you want -->
+			<img src="./Dependencies/Banner.png" alt="Banner" style="width:100%;margin:0 0 0 0;" /> <!-- It's nice to have a banner, this one is 1024px*256, but I've got it responsively sized, so it can be any size -->
+			<p><strong>SimpLay</strong> - Web design done simply.  SimpLay, serves to be a simple, modifiable web design template to use for any purpose you so desire.  It's simple and adaptable design makes it perfect for any website and purpose.  For examples of all the "bells and whistles" - every feature of the project, you can look here: <a href="./BellsAndWhistles.html">All The Bells and Whistles</a>.  For an example page, look here: <a href="./Page.html">Example Page</a>.</p>
+			<hr /> <!-- ^ and v It's probably best to put your own content in here -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ex massa, placerat ut velit vel, cursus fringilla magna. Vivamus aliquet a nunc cursus rhoncus. Nullam quis turpis accumsan, gravida tellus sit amet, consectetur risus. Maecenas blandit, tellus quis rhoncus sollicitudin, nisi dolor tincidunt libero, facilisis aliquam nunc arcu a enim. Morbi sollicitudin urna vel ornare venenatis. Nullam dignissim porttitor urna. Nunc eu lorem nec enim varius tincidunt. Nam leo magna, interdum non tincidunt vel, egestas in eros. Quisque iaculis arcu ac ultrices tempor. Fusce elementum ac nisi eu pellentesque.</p>
+		</article>
+	</div>
+	<p class="SocialMediaLinkHolder"><a href="mailto:james@jamesphillipsuk.com" class="icon-mail2 SocialMediaLinks"></a><a href="https://github.com/JamesPhillipsUK" class="icon-github SocialMediaLinks"></a></p> <!-- You'll want to add in your own social media links, the full list of available links is visible in BellsAndWhistles.html. -->
+	<p class="TechnicalLinkHolder"><span class="icon-html-five TechnicalLinks"></span><span class="icon-css3 TechnicalLinks"></span></p> <!-- as with social media links -->
+	<br /><br />
+	<div id="Footer">
+		<p>This site was designed using SimpLay - Copyright &copy; 2017 James Phillips, Released under the GNU GPL v3.0 or later.</p>
+	</div>
 </body>
 </html>

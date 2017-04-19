@@ -1,0 +1,48 @@
+/**
+  *	This program is Copyright (C) James Phillips <james@jamesphillipsuk.com>, 2017.  Released under the GNU GPL V3 or later.
+  **/
+html,body,nav,div{margin:0 0 0 0;padding:0 0 0 0;color:#000000;background-color:#FFFFFF;} /*General resets*/
+.HideMe{position:absolute;top:-9999px;left:-9999px;} /*Hide stuff that's not needed, but may be used for W3C-compliance*/
+#DroppedDown{display:none;z-index:999;width:100%;margin:0.2rem 0 0 0;right:0;float:right;}
+#DroppedDown ul{z-index:999;width:20%;margin:0 0 0 0;right:0;float:right;background-color:#EEEEEE;} /*Properties for the dropdown menu*/
+#DroppedDown ul li{list-style:none;display:block;}
+#DroppedDown ul li a{text-decoration:none;color:#000000;}
+p,ul,li,a,strong,em,span,h1,h2,h3,h4,h5,h6{font-family:'Lato',sans-serif;} /*Use the Lato font*/
+p,ul,li,a,strong,em,span{font-size:0.9rem;} /*Normal text size*/
+a:hover{font-style:italic;} /*Give a funky effect when a user hovers over a link*/
+h1{font-size:1.8rem;}
+h2{font-size:1.6rem;}
+h3{font-size:1.4rem;} /*Set sizes for headings as appropriate*/
+h4{font-size:1.2rem;}
+h5{font-size:1rem;}
+h6{font-size:0.95rem;}
+#MainNav{top:0;margin:0 0 0 0;width:100%;height:3rem;-webkit-box-shadow:0px 2px 6px 0px #444444;-moz-box-shadow:0px 2px 6px 0px #444444;box-shadow:0px 2px 6px 0px #444444;position:fixed;z-index:999;} /*Properties for thee main navigation bar*/
+#MainNavHeader{display:inline;float:left;} /*Properties for the main navigation bar's header*/
+#MainNavHeader h1{margin:0.6rem 0 0.6rem 0.6rem} /*Put the site heading in the right place*/
+#MenuButton{float:right;text-align:right;font-size:2.4rem;margin: 0.3rem 0 0.3rem 0;} /*Properties for the dropdown menu's button*/
+#PageContent{margin:3.2rem auto 0 auto;padding:0 0 0 0;width:85%;max-width:102rem;} /*content is 85% width, boxing off after the viewport reaches 1080p*/
+#Footer{bottom:0;margin:0 0 0 0;width:100%;-webkit-box-shadow:0px -2px 6px 0px #444444;-moz-box-shadow:0px -2px 6px 0px #444444;box-shadow:0px -2px 6px 0px #444444;position:relative;z-index:999;} /*Properties for the page footer*/
+#Footer p{margin:0 0.5rem 0 0.5rem;} /*Put the footer text in the right place*/
+.SocialMediaLinkHolder{display:inline-block;margin:0 0.5rem 0 0.5rem;float:left;} /*Social Media icons on the left*/
+.SocialMediaLinks{font-size:2rem;color:#000000;text-decoration:none;} /*display the icons in a user-friendly way*/
+.TechnicalLinkHolder{display:inline-block;margin:0 0.5rem 0 0.5rem;float:right;} /*Technical icons on the right*/
+.TechnicalLinks{font-size:2rem;color:#000000;text-decoration:none;} /*display the icons in a user-friendly way*/
+
+/*SimpLay uses a custom Icomoon font from icomoon.io for icons*/
+@font-face{font-family:'icomoon';src: url('./Fonts/icomoon.eot?ykgqm1');src: url('./Fonts/icomoon.eot?ykgqm1#iefix') format('embedded-opentype'),url('./Fonts/icomoon.ttf?ykgqm1') format('truetype'),url('./Fonts/icomoon.woff?ykgqm1') format('woff'),url('./Fonts/icomoon.svg?ykgqm1#icomoon') format('svg');font-weight:normal;font-style:normal;}
+[class^="icon-"], [class*=" icon-"]{/* use !important to prevent issues with browser extensions that change fonts */font-family:'icomoon' !important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;/* Better Font Rendering =========== */-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.icon-menu2:before{content:"\e900";}
+.icon-terminal:before{content:"\e901";}
+.icon-mail2:before{content:"\e902";}
+.icon-google-plus2:before{content:"\e903";}
+.icon-facebook:before{content:"\e904";}
+.icon-youtube:before{content:"\e905";}
+.icon-tux:before{content:"\e906";}
+.icon-linkedin2:before{content:"\e907";}
+.icon-html-five:before{content:"\e908";}
+.icon-css3:before{content:"\e909";}
+.icon-connection:before{content:"\e91b";}
+.icon-github:before{content:"\eab0";}
+
+/*Settings for mobile viewing*/
+@media screen and (max-width:800px){#MainNavHeader{display:none;}#DroppedDown ul{width:80%;}#PageContent{width:95%;}}
