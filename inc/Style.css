@@ -1,0 +1,14 @@
+/** 
+ * This program is Copyright (C) James Phillips <james@jamesphillipsuk.com>, 2017.  Released under the GNU GPL V3 or later.
+**/
+/*Site-Specific Styles to add to bootstrap*/
+*{font-family:'Roboto', sans-serif;}
+h1,h2,h3,h4,h5,h6{font-family:'Ubuntu', sans-serif;}
+.JPullOut{background-color:#333333;color:#FFFFFF;z-index:99;display:none;}
+.JFirstSection [class*="col-"]{padding:5vh 5vh 1vh 5vh;}
+.JFirstSection h2,.JFirstSection h1{margin-top:0;}
+.JFirstSection .container-fluid .row section .panel{display:none;}
+.JPhotoOfMe{display:block;margin:0 auto 0 auto;width:35%;height:auto;border-radius:50%;}
+.JSecondSection{display:none;}
+
+#ButtonToTop{display:none;position:fixed;bottom:1.5rem;right:1.5rem;z-index:100;border:0;outline:none;background-color:transparent;color:#000000;cursor:pointer;padding:1rem;font-size:3rem;opacity:0.5;}
