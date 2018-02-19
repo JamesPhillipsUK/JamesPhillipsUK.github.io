@@ -8,4 +8,4 @@ This is the code for my GitHub Pages Site.  Why are you bothering to look at all
 ---
 
 ## Release Details
-Version 2.0.0 - Released 11th November 2017 under the GNU General Public License v3.0 or later by James Phillips.  see the LICENSE file for more details.
+Version 2.0.1 - Released 19th February 2018 under the GNU General Public License v3.0 or later by James Phillips.  see the LICENSE file for more details.
