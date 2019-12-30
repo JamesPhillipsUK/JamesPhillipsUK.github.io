@@ -60,10 +60,10 @@
           <p>james@HAL9K ~ % git clone <a href="https://jamesphillipsuk.com/contact" title="jamesphillipsuk.com">https://jamesphillipsuk.com/contact</a></p>
           <p>Cloning into contact...<br />done.</p>
           <p>james@HAL9K ~ % ls -l contact<br />total 12</p>
-          <p>-rw-r--r-- james james 1024 Jan  1 20 10:09 <a href="https://github.com/JamesPhillipsUK" title="Visit my GitHub">github.sh</a></p>
-          <p>-rw-r--r-- james james 2048 Jan  1 20 10:09 <a href="mailto:james@jamesphillipsuk.com" title="Email me">email.txt</a></p>
-          <p>-rw-r--r-- james james 4096 Jan  1 20 10:09 <a href="https://jamesphillipsuk.com/" title="Download my CV">cv.pdf</a></p>
-          <p>-rw-r--r-- james james 8192 Jan  1 20 10:09 <a href="https://jamesphillipsuk.com/" title="Visit my blog">blog.php</a></p>
+          <p>-rw-r--r-- 1 james james 1024 Jan &nbsp;1 20 10:09 <a href="https://github.com/JamesPhillipsUK" title="Visit my GitHub">github.sh</a></p>
+          <p>drwxr-xr-- 3 james james 2048 Jan &nbsp;1 20 10:09 <a href="mailto:james@jamesphillipsuk.com" title="Email me">email.txt</a></p>
+          <p>-rw-r--r-- 1 james james 4096 Jan &nbsp;1 20 10:09 <a href="https://paypal.me/JamesPhillipsUK" title="Donate on PayPal.Me">donate-to.me</a></p>
+          <p>-rw-r--r-- 1 james james 8192 Jan &nbsp;1 20 10:09 <a href="https://jamesphillipsuk.com/" title="Visit my blog">blog.php</a></p>
         </div>
       </div>
       <div class="col-12 col-md-6" id="hideRight">
@@ -77,22 +77,25 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
   <script>
- var typed = new Typed('#typewriter', {
-    strings: ['Hi...', '', 'I\'m James.', '', 'I\'m a full-stack App and Web App Developer.', '', 'I\'m based in Lancashire.', '', 'I specialise in multi-platform and data-driven applications.'],
-    typeSpeed: 50,
-    backSpeed: 0,
-    loop: true
-  });
-
-$(document).ready(function()
+/**
+ * This program is Copyright (C) James Phillips <james@jamesphillipsuk.com>, 2019.  Released under the GNU GPL V3 or later.
+ * @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt GPL-v3-or-Later
+ **/
+var typed = new Typed('#typewriter', 
 {
-  $("#hideRight").animate({left: '200vw'},0);
+  strings: ['Hi...', '', 'I\'m James.', '', 'I\'m a full-stack App and Web App Developer.', '', 'I\'m based in Lancashire.', '', 'I specialise in multi-platform and data-driven applications.'],
+  typeSpeed: 50,
+  backSpeed: 0,
+  loop: true
 });
+
+$(document).ready(function() {$("#hideRight").animate({left: '200vw'},0);});
+
 $("#Click").click(function()
 {
-  $("#Click").slideUp(200).delay(300);
-  $("#hideRight").animate({left: 0}, 200).delay(300);
-  $("#showLeft").animate({right: '200vw'}, 200).delay(300);
+  $("#Click").slideUp(200).delay(200);
+  $("#hideRight").animate({left: 0}, 200).delay(200);
+  $("#showLeft").animate({right: '200vw'}, 200).delay(200);
   $("#showLeft").removeClass("offset-md-3");
   $("#showLeft").animate({right: 0}, 200);
 });
@@ -109,6 +112,10 @@ eventFunc(messageEvent, function (e)
     $('#iframe').css('height', (height + 'px'));
   }
 }, false);
+console.log("If you\'re reading this, you're probably trying to find out how this site works.  Static content is served from github.io (written in HTML and JavaScript), dynamic content is served via an iframe from github-profile.jamesphillipsuk.com (written in PHP as well).");
+/**
+ *@license-end
+ **/
   </script>
 </body>
 </html>

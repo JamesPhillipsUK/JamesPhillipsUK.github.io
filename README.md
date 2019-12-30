@@ -2,13 +2,7 @@
 
 ## About
 
-This is the code for my GitHub Pages Site.  Why are you bothering to look at all this boring code?  All of the fun stuff's at [JamesPhillipsUK.github.io](https://JamesPhillipsUK.github.io "James Phillips on GitHub")!
-
-## Design
-
-[JamesPhillipsUK.github.io](https://JamesPhillipsUK.github.io "James Phillips on GitHub") was originally built using [SimpLay](https://github.com/JamesPhillipsUK/SimpLay "SimpLay on GitHub").  It is now a completely separate project, with a custom Bootstrap template.
-
----
+This is the code for my GitHub Pages Site.  Why look at all this code?  The fun stuff's at [JamesPhillipsUK.github.io](https://JamesPhillipsUK.github.io "James Phillips on GitHub")!
 
 ## Release Details
 
