@@ -1,11 +1,9 @@
 # JamesPhillipsUK.github.io
+
 ## About
-This is the code for my GitHub Pages Site.  Why are you bothering to look at all this boring code?  All of the fun stuff's at [JamesPhillipsUK.github.io](https://JamesPhillipsUK.github.io "James Phillips on GitHub")!
 
-## Design
-[JamesPhillipsUK.github.io](https://JamesPhillipsUK.github.io "James Phillips on GitHub") was originally built using [SimpLay](https://github.com/JamesPhillipsUK/SimpLay "SimpLay on GitHub").  It is now a completely separate project, with a custom Bootstrap template.
-
----
+This is the code for my GitHub Pages Site.  Why look at all this code?  The fun stuff's at [JamesPhillipsUK.github.io](https://JamesPhillipsUK.github.io "James Phillips on GitHub")!
 
 ## Release Details
-Version 2.0.1 - Released 19th February 2018 under the GNU General Public License v3.0 or later by James Phillips.  see the LICENSE file for more details.
+
+Version 3 - Released DATE HERE under the GNU General Public License v3.0 or later by James Phillips.  see the LICENSE file for more details.
