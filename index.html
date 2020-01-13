@@ -92,17 +92,25 @@ var typed = new Typed('#typewriter',
   loop: true
 });
 
-$(document).ready(function() {$("#hideRight").animate({left: '200vw'},0); $("#Click2").slideUp(0);});
+$(document).ready(function()
+{
+  $("#hideRight").animate({left: '200vw'},0);
+  $("#hideRight").addClass("d-none");
+  $("#Click2").slideUp(0);
+});
 
 $("#Click").click(function()
 {
   $("#Click2").slideDown(200).delay(200);
   $("#Click").slideUp(200).delay(200);
+  $("#hideRight").removeClass("d-none");
   $("#hideRight").animate({left: 0}, 200).delay(200);
   $("#showLeft").animate({right: '200vw'}, 200).delay(200);
+  $("#showLeft").addClass("d-none");
   $("#showLeft").addClass("col-md-6");
   $("#showLeft").removeClass("col-md-8");
   $("#showLeft").removeClass("offset-md-2");
+  $("#showLeft").removeClass("d-none");
   $("#showLeft").animate({right: 0}, 200);
 });
 
@@ -111,10 +119,13 @@ $("#Click2").click(function ()
   $("#Click").slideDown(200).delay(200);
   $("#Click2").slideUp(200).delay(200);
   $("#hideRight").animate({ left: '200vw' }, 200).delay(200);
+  $("#hideRight").addClass("d-none");
   $("#showLeft").animate({ right: '200vw' }, 200).delay(200);
+  $("#showLeft").addClass("d-none");
   $("#showLeft").removeClass("col-md-6");
   $("#showLeft").addClass("col-md-8");
   $("#showLeft").addClass("offset-md-2");
+  $("#showLeft").removeClass("d-none");
   $("#showLeft").animate({ right: 0 }, 200);
 });
 
