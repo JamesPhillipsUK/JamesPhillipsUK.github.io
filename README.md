@@ -2,8 +2,8 @@
 
 ## About
 
-This is the code for my GitHub Pages Site.  Why look at all this code?  The fun stuff's at [JamesPhillipsUK.github.io](https://JamesPhillipsUK.github.io "James Phillips on GitHub")!
+This is the code for my GitHub Pages Site.  The fun stuff's at [JamesPhillipsUK.github.io](https://JamesPhillipsUK.github.io "Jesse Phillips on GitHub")!
 
 ## Release Details
 
-Version 3 - Released DATE HERE under the GNU General Public License v3.0 or later by James Phillips.  see the LICENSE file for more details.
+Version 3.1 - Released December 2020 under the GNU General Public License v3.0 or later by Jesse Phillips.  see the LICENSE file for more details.
