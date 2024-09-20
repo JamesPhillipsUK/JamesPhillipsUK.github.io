@@ -37,7 +37,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <style>
     .terminal{padding:8px; background-color:#111; color:#29B765; margin:16px 0;border-radius:0.35rem; box-shadow:0 0 0.34rem #666; font-family:"Courier Prime", courier, monospace;}
-    .terminal p{margin:16px 0 0 0;font-size:85%}
+    .terminal p{margin:0;font-size:85%}
+    .terminal .p{margin:16px 0 0 0;font-size:85%}
     .terminal-top{background-color:#E6E6E6; width:calc(100% + 16px); height:24px; margin:-8px;border-radius:0.34rem 0.34rem 0 0; padding:0 6px;}
     .terminal-top div{width:12px; height:12px; border-radius:50%; margin:6px 0 0 3px; display:inline-block;}
   </style>
@@ -55,7 +56,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 pt-3">
-        <p class="lead text-end"><a href="https://github.com/JamesPhillipsUK" title="GitHub">See what I'm doing on GitHub... <i class="fas fa-share"></i></a></p>
+        <p class="lead text-end"><a href="https://github.com/JamesPhillipsUK" class="text-white" title="GitHub">See what I'm doing on GitHub... <i class="fas fa-share"></i></a></p>
       </div>
     </div>
   </div>
@@ -69,7 +70,7 @@
             <div style="background-color:#FFC107;"></div>
             <div style="background-color:#28A745;"></div>
           </div>
-          <p id="termBlock">jesse@HAL9K ~ % <span style="display:inline;" id="term"></span></p>
+          <p id="termBlock" class="p">jesse@HAL9K ~ % <span style="display:inline;" id="term"></span></p>
         </div>
       </div>
     </div>
@@ -84,16 +85,16 @@
             <div style="background-color:#FFC107;"></div>
             <div style="background-color:#28A745;"></div>
           </div>
-          <p>jesse@HAL9K ~ % git clone <a href="https://jessephillips.uk" title="Go to my website.">https://jessephillips.uk</a></p>
-          <p>Cloning into 'contact'...
+          <p class="p">jesse@HAL9K ~ % git clone <a href="https://jessephillips.uk" title="Go to my website.">https://jessephillips.uk</a></p>
+          <p>Cloning into 'jessephillipsuk'...
             <br />remote: Enumerating objects: 188, done.
             <br />remote: Total 188 (delta 0), reused 0 (delta 0), pack-reused 188
             <br />Receiving objects: 100% (188/188), 1.33 MiB | 2.20 MiB/s, done.
             <br />Resolving deltas: 100% (73/73), done.
             <br />done.
           </p>
-          <p>jesse@HAL9K ~ % ls -l contact<br />total 12</p>
-          <p>-rw-r--r-- 1 jesse jesse 3141 Jan &nbsp;5 20 10:09 <a href="https://github.com/JamesPhillipsUK" title="Visit my GitHub">github.sh</a></p>
+          <p>jesse@HAL9K ~ % ls -l jessephillipsuk<br />total 12</p>
+          <p class="mb-0">-rw-r--r-- 1 jesse jesse 3141 Jan &nbsp;5 20 10:09 <a href="https://github.com/JamesPhillipsUK" title="Visit my GitHub">github.sh</a></p>
           <p>drwxr-xr-- 3 jesse jesse 9265 Feb &nbsp;3 20 10:09 <a href="mailto:jesse@jessephillips.uk" title="Email me">email.txt</a></p>
           <p>-rw-r--r-- 1 jesse jesse 5897 Mar &nbsp;9 20 10:09 <a href="https://paypal.me/JamesPhillipsUK" title="Donate on PayPal.Me">donate-to.me</a></p>
           <p>-rw-r--r-- 1 jesse jesse 3238 Apr &nbsp;4 20 10:09 <a href="https://jessephillips.uk/" title="Visit my blog">blog.php</a></p>
